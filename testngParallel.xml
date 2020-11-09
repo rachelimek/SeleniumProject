@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="4" name="Test" parallel="classes">
+    <classes>
+      <class name="optitex.tests.TC16MissingContactTest"/>
+      <class name="optitex.tests.TC18FaqLink"/>
+      <class name="optitex.tests.TC32SearchWrongDataFromExcel"/>
+      <class name="optitex.tests.TC12HelpIndex"/>
+      <class name="optitex.tests.TC04SearchWrongData"/>
+      <class name="optitex.tests.TC01BookDemoTest"/>
+      <class name="optitex.tests.TC05SearchByMenu"/>
+      <class name="optitex.tests.TC15ChangeLanguage"/>
+      <class name="optitex.tests.TC19CountOffices"/>
+      <class name="optitex.tests.TC14HelpSearch"/>
+      <class name="optitex.tests.TC03SearchWebinarTest"/>
+      <class name="optitex.tests.BaseTest"/>
+      <class name="optitex.tests.TC09GoToTopArrow"/>
+      <class name="optitex.tests.TC06LoginWrongUser"/>
+      <class name="optitex.tests.TC10HoverCoat"/>
+      <class name="optitex.tests.TC13HelpGlossary"/>
+      <class name="optitex.tests.TC31LoginWrongUserFromExcel"/>
+      <class name="optitex.tests.TC20CountTotalBlogs"/>
+      <class name="optitex.tests.TC07LoginResetPassword"/>
+      <class name="optitex.tests.TC17ContactUsTest"/>
+      <class name="optitex.tests.TC08MissingLogin"/>
+      <class name="optitex.tests.TC02WatchVideoTest"/>
+      <class name="optitex.tests.TC11HelpFilter"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

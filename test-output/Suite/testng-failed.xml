@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="optitex.tests.TC09GoToTopArrow">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="failedTest"/>
+          <include name="downAndUp"/>
+        </methods>
+      </class> <!-- optitex.tests.TC09GoToTopArrow -->
+      <class name="optitex.tests.TC17ContactUsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="failedTest"/>
+          <include name="contactUs"/>
+        </methods>
+      </class> <!-- optitex.tests.TC17ContactUsTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
